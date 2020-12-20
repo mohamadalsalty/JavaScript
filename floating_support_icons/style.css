@@ -1,0 +1,20 @@
+/* Button used to open the chat form - fixed at the bottom of the page */
+.open-button {
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    position: fixed;
+    bottom: 10px;
+    right: 0px;
+}
+.img{
+    text-align: center;
+    font-size:50px;
+}
+
+.title{
+    text-align: center;
+    color:#afafaf;
+    text-decoration: none;
+}
