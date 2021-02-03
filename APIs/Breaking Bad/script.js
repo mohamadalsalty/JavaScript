@@ -1,0 +1,18 @@
+		async function get(){
+			const response = await fetch("https://www.breakingbadapi.com/api/characters");
+			const data = await response.json();
+			data.map(function(names){
+				console.log(names.name);
+			});
+
+
+			document.querySelector("#api").innerHTML =`
+			${
+				data.map(names=> `<center><img width="100px" src='${names.img}'/><h1>${names.nickname}</h1></center>`)
+
+			}
+
+			<br>`; 
+
+		}
+		get();
